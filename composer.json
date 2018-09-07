@@ -1,6 +1,13 @@
 {
     "name": "cierrateam/laravel-crisp",
-    "description": "A Laravel-Wrapper for the crisp PHP-Pack",
+    "description": "A Laravel-Wrapper for the crisp PHP-API",
+    "keywords": [
+        "crisp",
+        "laravel",
+        "laravel-crisp",
+        "crisp-api",
+        "chat"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
