@@ -1,0 +1,28 @@
+{
+    "name": "cierrateam/laravel-crisp",
+    "description": "A Laravel-Wrapper for the crisp PHP-Pack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vittorio Emmermann",
+            "email": "vittorio@cierra.eu"
+        }
+    ],
+    "require": {
+        "crispchat/php-crisp-api": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cierrateam\\LaravelCrisp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cierrateam\\LaravelCrisp\\LaravelCrispServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
