@@ -1,4 +1,7 @@
 # Laravel-Crisp
+
+# Not longer maintained
+
 A package for wrapping the Crisp-Api into a useable Laravel-Package. Enjoy!
 
 ## Installation
